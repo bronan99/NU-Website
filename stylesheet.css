@@ -1,0 +1,38 @@
+* {
+	
+}
+
+.header {
+	font-size: 15px;
+	font-style: Verdana;
+	font-weight: bold;
+	text-align: center;
+}
+
+#navbar {
+	position: fixed center;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 2px black solid;
+    text-align: center;
+    background-color: #abcdef;
+    margin: auto;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	float: left;
+	list-style-type: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+h1 {
+	font-size: 24;	
+}
