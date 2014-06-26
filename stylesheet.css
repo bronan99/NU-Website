@@ -1,7 +1,16 @@
 * {
 	
 }
-
+body {
+    text-align: center;
+    background: #0066CC;
+    color: white;
+    font-family: Helvetica;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .header {
 	font-size: 15px;
 	font-style: Verdana;
@@ -21,6 +30,7 @@
 
 ul {
 	text-align: center;
+	display: block;
 }
 
 li {
@@ -33,6 +43,56 @@ a {
     text-decoration: none; 
 }
 
-h1 {
+h2 {
 	font-size: 24;	
 }
+p {
+    font-size: 24px;
+    margin: 50px;
+}
+input {
+    border: 0;
+    padding: 12px;
+    font-size: 18px;
+}
+input[type="submit"] {
+    background: #00CC00;
+    color: black;
+}
+h1 {
+	font-size: 36px;
+}
+.head {
+	display: inline;
+	padding: 20px;
+}
+img {
+	border-radius: 5px;
+	padding: 30px;
+	position: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.actionseq {
+	border-radius: 20px;
+	display: inline;
+}
+#actiondiv {
+	max-width: 100%;
+}
+.floated_img
+{
+    float: left;
+}
+
+#adj {
+	display: inline-block;
+}
+#skatborts {
+	display: inline-block;
+}
+
+
+
+
